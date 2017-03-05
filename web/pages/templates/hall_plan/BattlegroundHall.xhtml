@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core">
+     <f:view locale="#{localeChanger.locale}" >  
+    <h:head>
+        <title>Wwe title</title>
+             <h:outputStylesheet library="css" name="style_main.css"/>
+     </h:head>
+    <body>
+        <ui:composition>
+            <h:form  >
+               
+                <div style="width:515px;margin-left:11.5%; ">     
+                    <div style="position:relative;left:12%;width:515px;padding-left:42px;">
+                        
+                        <h:graphicImage library="images" name="ring.png"/> 
+                        
+                    </div>
+                            
+                            
+                <span style="position:relative;left:0.5%;width:515px;">     
+                   
+                    <ui:repeat var="hall" value="#{battleground.hallPlan}">
+                        
+                           <span style="#{hall.SAdd}"  > <h:graphicImage library="images" name="full.png" />
+                            </span>
+                       
+                             <h:commandLink  action="#{tickets.add()}" style="#{hall.SHidden}"  >
+                                
+                                <span style=""  > <h:graphicImage library="images" name="empty.png" />
+                            </span>
+                                <f:param name="name_ppv" value="#{hall.name}"/>
+                                 <f:param name="seat" value="#{hall.seat}"/>
+                        </h:commandLink> 
+                            
+                           
+                    </ui:repeat>
+                  </span> 
+                    
+           </div>                     
+                
+                
+        </h:form>
+        </ui:composition>
+    </body>
+          </f:view>
+</html>

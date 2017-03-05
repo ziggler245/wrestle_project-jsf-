@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+    <h:head>
+        <title>wwe title</title>
+        <h:outputStylesheet library="css" name="style_main.css" />
+    </h:head>
+    <body>
+        <ui:composition>
+            <h:form style="font-size: 31px;font-weight: 700;float:left;width: 1000px;"> 
+       
+            <span >   <h:graphicImage library="images" name="home_top.png" width="20"/>
+                <h:commandLink action="/pages/main.xhtml?faces-redirect=true" class="text_decor">#{msg.main}</h:commandLink>
+            </span>
+            
+            <span style="margin-left:2%;">
+                <h:commandLink action="#{localeChanger.setLanguage('en')}"><h:graphicImage library="images" name="america_main.png" width="30"/>
+            </h:commandLink>
+            </span>
+            
+            <span class="top_span">
+                <h:graphicImage library="images" name="content_top.png" width="20" />
+                <h:commandLink action="/pages/wrestler?faces-redirect=true" class="text_decor"> 
+                    #{msg.contant}
+                </h:commandLink>
+            </span>
+            
+                 <span style="margin-left:2%;">
+                     
+                     <h:commandLink action="#{localeChanger.setLanguage('ru')}">    
+                     <h:graphicImage library="images" name="russia_main.png" width="30" height=""/>
+                 </h:commandLink> 
+                 </span>
+            
+            <span class="top_span">
+                <h:graphicImage library="images" name="logout_top.png" width="20" />
+                <h:commandLink action="#{user.logout()}" class="text_decor"> #{msg.exit}</h:commandLink>
+            </span>
+            <span style="position:relative;top:-5px;">
+                <h:inputText id="search" style="width:335px;height: 21px;" value="#{comments.search}"/>
+            
+
+
+                <h:commandButton  value="#{msg.submit}" styleClass="login_button" style="margin-top: 5px;display:inline-block;"  action="#{comments.Search()}">
+                                        
+                                    </h:commandButton>
+</span>
+       
+            </h:form>
+            </ui:composition>
+        
+        
+    </body>
+</html>

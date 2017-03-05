@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core">
+    <h:head>
+        <title>Wwe title</title>
+     </h:head>
+    <body>
+        <ui:composition>
+            <h:form >
+                <div >
+            <ui:repeat value="#{comments.comment}" var="com" >
+                <div style="border-bottom:1px dashed black ;float:right;width:510px;position:relative;left:12%;font-size: 1.2em;">
+                #{com.content}<br/>
+                
+                <h:commandLink action="#{comments.getHtags}">
+                                
+                    #{com.htags}
+                    <f:param name="h_tag1" value="#{com.htags}" />
+                   </h:commandLink>
+                
+                <br/>
+                <div style="float:right;">       #{msg.written} 
+                    <h:commandLink action="#{comments.getComments_4()}" >
+
+                                #{com.author}
+                                <f:param name="action_2" value="#{com.author}" />
+                    </h:commandLink>
+                    
+                   
+                    <!--ui:repeat var="htags" value="{comment.list}" >
+                        <h:commandLink>
+                                {htags.hesht}
+                        </h:commandLink>
+                     </ui:repeat-->
+                    
+                    <!--ui:repeat  var="sppl" value="{comments.htags}">
+                        
+                        {sppl.hesht}
+                        
+                    </ui:repeat-->
+                    <!--ui:repeat value="{com.list}" var="kk">
+                        
+                        
+                    </ui:repeat-->
+                    
+                    <!--ui:repeat value="{com.list}" var="pu">
+                        {pu}<br/>
+                        
+                    </ui:repeat-->
+                    
+                  
+                   
+                    
+                </div>
+                </div><br/>
+                
+            </ui:repeat>
+                    
+                  
+                    
+            </div>
+            </h:form>
+            
+        </ui:composition>
+        
+        
+    </body>
+</html>

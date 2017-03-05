@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+    <h:head>
+        <title>Clash Of Champions</title>
+    </h:head>
+    <body>
+         <div class="container" style="width:1000px;margin:0 auto;">
+            <div class="header">
+                
+                <ui:insert name="header">
+                    <ui:include src="/pages/templates/header.xhtml"/>
+                </ui:insert>
+            </div>
+            <div style="float:left;" >
+                <ui:insert name="top_menu">
+                    <ui:include src="/pages/templates/top_menu.xhtml" />
+                    
+                </ui:insert>
+                
+            </div>
+            
+            
+            <div style="float:left;margin-left: -1.5%;border:1px solid black;">
+                <ui:insert name="left_menu">
+                    <ui:include src="/pages/templates/left_menu.xhtml"/>
+                    
+                </ui:insert>
+                
+                
+            </div>
+            
+           
+            
+            
+            <div style="float:left;margin-left:-6%;">
+                    <ui:insert name="content" >
+                        <ui:include src="/pages/templates/hall_plan/ClashOfChampionsHall.xhtml"/>
+
+                    </ui:insert>
+    
+            </div>
+            
+            <div style="float:right;width:280px;">
+                <ui:insert name="right_menu">
+                    <ui:include src="/pages/templates/right_menu.xhtml" />
+                    
+                </ui:insert>
+                
+            </div>
+            
+            
+            
+            
+            
+            
+        </div>
+    </body>
+</html>

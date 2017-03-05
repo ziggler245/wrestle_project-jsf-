@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+     
+     <f:view locale="#{localeChanger.locale}" >    
+        
+
+   
+    <h:head>
+        <h:panelGroup id="qq">   <title >#{msg.contact}</title></h:panelGroup>
+        <h:outputStylesheet library="css" name="style_index.css"  />
+        <h:outputScript library="js" name="index.js" target="head"/>
+    </h:head>
+         <h:body onload="clear()">   
+  <h:form id="forbidden_1" >
+        <div class="main" >
+             
+       
+        
+        <div class="content">
+                <p class="title"><h:graphicImage library="images" name="logo.png" width="100px"/></p>
+                <p class="title" id="t1">#{msg.index_title}</p>
+             
+                    <h:graphicImage library="images" name="america.png" width="60px" height="60px" style="position: relative;left:77%;
+                                    top:-170px;">
+                                        
+                     
+                        <f:ajax render="@form :qq" listener="#{localeChanger.setLanguage('en')}" event="click"/>   
+                         
+                    </h:graphicImage>
+                
+                <h:graphicImage library="images" name="russia.png" width="60px" height="60px" style="position: relative;left:80%;
+                                top:-170px;">
+                
+                  <f:ajax render="@form :qq" listener="#{localeChanger.setLanguage('ru')}"  event="click"/>   
+                         
+                
+               </h:graphicImage>
+                  
+            </div>
+            
+
+            <div class="feedback_div">
+
+                        <table align="left"  style="border-spacing: 7px 11px;">
+                           
+                            <tr >
+                                <td  align="left" class="td_simple"><span style="color:red;">*</span> #{msg.e_mail}</td>
+                                
+                                <td >
+    <h:inputText  id="username"  value="#{user.emailFeedback}" styleClass="inp" >
+        </h:inputText>
+                                </td>
+                                                                
+                            </tr>
+                            <tr >
+                                <td align="left" class="td_simple"><span style="color:red;">*</span> #{msg.message}</td>
+                                <td><h:inputTextarea  styleClass="inp" id="password" value="#{user.messageFeedback}" style="height:60px;">
+                                          <!--<f:ajax event="keyup" render="loginError"/>-->
+                                    </h:inputTextarea></td>
+                                  <td style="display: none;"><h:inputHidden id="login_wrong" /></td>
+                            </tr>
+                           
+                               
+                                <tr>
+                              
+                                <td colspan="2" align="middle">
+                                    
+                                    <h:commandButton action="#{user.feedback()}" value="#{msg.submit}" styleClass="login_button"  >
+                                        <f:ajax  onevent="showProgress"  execute="@form" render="@form"  />
+                                        
+                                    </h:commandButton>
+                                        <div id="loading_wrapper">
+                                               <h:graphicImage library="images" name="ajax-loader.gif"  /> 
+                                         </div>  
+                                 
+                                       
+                                </td>
+                                
+                            </tr> 
+                            <tr><td colspan="2">
+                                    
+  <span  id="span_1"><h:message   for="username" styleClass="error"/></span>
+  <span  id="span_2" style="margin-left: 25%;">  <h:message  for="password" styleClass="error"    /></span>
+  <span  id="span_3" style="margin-left: 15%;">    <h:message  for="login_wrong"    styleClass="error" /></span>
+   <span  id="span_3">    <h:message  for="forbidden_2"    styleClass="error" /></span>
+                                </td>
+
+                                <td>
+                                </td>
+                            </tr>
+                        </table>
+
+                </div>
+
+            <div class="footer">
+                
+                <h:commandLink value="#{msg.authorization}" action="index?faces-redirect=true" id="save" styleClass="registration" />
+                <span class="footer_author"> #{msg.author_info} <h:outputLink styleClass="author"  target="_blank" value="https://www.linkedin.com/in/sergey-khalyavin-b37ab7109?trk=nav_responsive_tab_profile"> #{msg.author_name}  #{msg.author_sirname}</h:outputLink></span>
+            </div>
+            
+            <h:commandLink value="#{msg.registration}" action="registration?faces-redirect=true"  styleClass="footer_feedback"/>
+            
+        </div>
+          
+          
+ </h:form>
+    </h:body>
+     
+   
+       </f:view>     
+
+</html> 
+

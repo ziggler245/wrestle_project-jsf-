@@ -1,0 +1,118 @@
+
+/* 
+   Author     : Serhii Khaliavin
+*/
+
+.logo{
+
+    padding-left: 175px; 
+    margin: 0 auto;   
+    
+}
+
+.top_menu{
+    width:998px;
+    height:50px;
+    border:1px solid black;
+    margin: 0 auto; 
+    margin-top: -5px;
+   
+    
+}
+
+.left_menu {
+    float: left;
+    width: 170px;
+    padding-bottom: 10px;
+    margin: 10px;
+    border:1px solid black;
+    margin-left: 13%;
+    margin-top:0px;
+}
+
+.content_container a:hover{
+     color: #999;
+    
+}
+
+.content_container a,a:active{
+    text-decoration: none;
+    color:#8E4E20;
+   /* font-size: 1.2em;*/
+    font-weight: 700;
+background-color: transparent;
+}
+
+/*
+.active a,h:active{
+    color:red !important;
+    
+    
+}*/
+.ppvs a:hover, a:active, a:focus {
+    background-color: #FFFFFF;
+    color: #999;
+    
+}
+
+.ppvs a, a:visited { 
+    padding: 3px 3px 3px 15px;
+    display: block; 
+    text-decoration: none;
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+}
+.top_span{
+    padding-left: 2%;
+    
+    
+}
+
+
+.login_button {
+    -moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+    box-shadow:inset 0px 1px 0px 0px #caefab;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811) );
+    background:-moz-linear-gradient( center top, #77d42a 5%, #5cb811 100% );   
+    background-color:#77d42a;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #268a16;   
+    color:#306108;
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;   
+   
+}.login_button  {
+  border-top: 1px solid #96d1f8; 
+  background: #0078a5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+  background: -moz-linear-gradient(top, #00adee, #0078a5); background: -ms-linear-gradient(top, #00adee, #0078a5); 
+  background: -o-linear-gradient(top, #00adee, #0078a5); padding: 7px 7px; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; 
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2); -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2); box-shadow: 0 1px 2px rgba(0,0,0,.2);
+  text-shadow: rgba(0,0,0,.4) 0 1px 0; color: #d9eef7; font-size: 11px; font-family: Arial, Helvetica, sans-serif; 
+  text-decoration: none; vertical-align: middle; } .login_button:hover { color: #dbdbdb; background: #00678e;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e)); background: -moz-linear-gradient(top, #0095cc, #00678e);
+  background: -ms-linear-gradient(top, #0095cc, #00678e);
+  
+                                                                                                                                                                                                        background: -o-linear-gradient(top, #0095cc, #00678e); } 
+.login_button:active { border-top-color: #00adee; background: #00adee;
+  
+}
+
+.wrestlers{
+    font-weight: 700;
+    font-size: 1.2em;
+    
+}
+
+.text_decor{
+    
+    text-decoration: none;
+    
+}

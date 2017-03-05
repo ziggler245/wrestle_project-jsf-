@@ -1,0 +1,279 @@
+/* 
+   Author     : Serhii Khaliavin
+*/
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    background-color: #eaeaea;
+    margin:100px;
+    overflow-y: hidden;
+}
+.main {
+    background-color: #FFF;
+    width: 600px;
+    height:450px;
+    margin:0 auto;
+    padding:20px;
+    margin-top: -1.4%;
+}
+
+.main_registr{
+    
+    background-color: #FFF;
+    width: 600px;
+    height:460px;
+    margin:0 auto;
+    padding:20px;
+    margin-top: -1.4%;
+    
+}
+
+.title {
+    color: #000;
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+
+}
+
+.text{
+
+    padding-left:50px;
+    padding-right:50px;
+}
+
+.login_form{
+    padding-left:10px;
+    text-align: center;
+    padding: 20px;
+    padding-top: -7px;
+}
+
+.login_div{
+    width:440px;
+    border: 1px solid #eaeaea;
+    margin: 0 auto;
+    padding:15px;
+    margin-top: 70px;
+    height: 130px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.author_div{
+    width:520px;
+    border: 1px solid #eaeaea;
+    margin: 0 auto;
+    padding:15px;
+    margin-top: 20px;
+    height: 230px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.feedback_div{
+    width:520px;
+    border: 1px solid #eaeaea;
+    margin: 0 auto;
+    padding:15px;
+    margin-top: 20px;
+    height: 180px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.login_div p{
+    text-align: left;
+
+}
+
+.footer{
+    color:black;
+    text-align: center;
+    margin:50px;
+    position: relative;
+    top:-10px;
+}
+
+.footer_reg{
+    color:black;
+    text-align: center;
+    margin:10px;
+    position: relative;
+    top:-10px;
+}
+
+
+.content{
+    height:150px;
+
+}
+
+.error{
+    color:#ff0000;
+    font-style: italic;
+    font-size: 12px;
+
+}
+
+
+.login_button {
+    -moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+    box-shadow:inset 0px 1px 0px 0px #caefab;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811) );
+    background:-moz-linear-gradient( center top, #77d42a 5%, #5cb811 100% );   
+    background-color:#77d42a;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #268a16;   
+    color:#306108;
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;   
+   
+}.login_button:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5cb811), color-stop(1, #77d42a) );
+    background:-moz-linear-gradient( center top, #5cb811 5%, #77d42a 100% );
+    background-color:#5cb811;
+    cursor: pointer;
+}.login_button:active {
+    position:relative;
+    top:1px;
+}
+
+
+.locales{
+    width: 100%;
+    float:right;
+    margin:0 auto;
+    text-align: right;
+    clear: both;
+    height: 40px;
+}
+
+.locales a{
+    margin-right: 15px;
+    font-size: 10px;
+}
+
+#loading_wrapper{
+  display:none;
+   position:fixed;
+margin-left: 1%;
+margin-top: 0.5%;
+}
+
+#t1{
+    font-size: 26px;
+    font-weight: 900;
+    
+}
+
+.td_simple{
+    font-size: 17px;
+    position:relative;
+    
+    width:500px;
+    
+}
+
+.inp{
+    width:250px;
+    height: 20px;
+    position:relative;
+    
+    right:-10px;
+}
+.registration{
+    color:black;
+    text-align: center;
+    margin-top: -5px;
+    margin-left: -22%;
+    display:inline-block;position: fixed;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.footer_author{
+    display:inline-block;position: fixed;
+    text-decoration: none;
+    font-weight: 800;
+    margin-top: -5px;
+    margin-left: -11%;
+}
+
+
+.footer_feedback{    
+    color:black;
+    display:inline-block;position: fixed;
+    margin-top: -5px;
+    margin-left: 35%;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.author{
+    text-decoration: none;
+    color:#064A71;
+    
+}
+
+.author:hover{
+    text-decoration: underline;
+    
+}
+
+#span_1{
+    display:inline-block;
+    position: fixed;
+    margin-top:-10px;
+    margin-left:-0.5%;
+    
+}
+
+#span_2{
+    display:inline-block;
+    position: fixed;
+    margin-left:22%;
+    margin-top:-10px;
+    
+}
+
+#span_3{
+    display:inline-block;
+    position: fixed;
+    margin-left:11%;
+    margin-top:-10px;
+    
+}
+
+#span_reg_1{
+    display:inline-block;
+    position: fixed;
+    margin-left:13%;
+    margin-top:-10px;
+    
+}
+
+#span_reg_2{
+    display:inline-block;
+    position: fixed;
+    margin-left:13%;
+    margin-top:10px;
+    
+}
+
+.span_reg_3{
+    display:inline-block;
+    position: fixed;
+    margin-left:13%;
+    margin-top:2px;
+    
+}

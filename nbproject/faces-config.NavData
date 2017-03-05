@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene Scope="Project" version="2">
+    <Scope Scope="Faces Configuration Only"/>
+    <Scope Scope="Project">
+        <Node id="pages/ppv/ExtremeRules.xhtml" x="1150" y="750" zoom="true"/>
+        <Node id="pages/templates/hall_plan/ClashOfChampionsHall.xhtml" x="1900" y="450" zoom="true"/>
+        <Node id="pages/templates/extreme_rules_hall_template.xhtml" x="2400" y="150" zoom="true"/>
+        <Node id="pages/templates/no_mercy_hall_template.xhtml" x="900" y="150" zoom="true"/>
+        <Node id="contact.xhtml" x="150" y="150" zoom="true"/>
+        <Node id="registration.xhtml" x="650" y="150" zoom="true"/>
+        <Node id="pages/templates/hall_plan/RoyalRumbleHall.xhtml" x="2650" y="150" zoom="true"/>
+        <Node id="pages/ppv/Payback.xhtml" x="1650" y="450" zoom="true"/>
+        <Node id="pages/ppv/TLC.xhtml" x="400" y="750" zoom="true"/>
+        <Node id="pages/ppv/Summerslam.xhtml" x="150" y="1500" zoom="true"/>
+        <Node id="pages/templates/backlash_hall_template.xhtml" x="150" y="1200" zoom="true"/>
+        <Node id="pages/templates/wrestle_hall_template.xhtml" x="1400" y="300" zoom="true"/>
+        <Node id="pages/templates/left_menu.xhtml" x="1150" y="150" zoom="true"/>
+        <Node id="pages/templates/fastlane_hall_template.xhtml" x="1650" y="150" zoom="true"/>
+        <Node id="pages/templates/hall_plan/ExtremeRulesHall.xhtml" x="150" y="1050" zoom="true"/>
+        <Node id="pages/templates/hall_plan/NoMercyHall.xhtml" x="1650" y="600" zoom="true"/>
+        <Node id="pages/templates/payback_hall_template.xhtml" x="900" y="1050" zoom="true"/>
+        <Node id="pages/templates/tlc_hall_template.xhtml" x="650" y="750" zoom="true"/>
+        <Node id="index.xhtml" x="244" y="316" zoom="true"/>
+        <Node id="pages/templates/content_t_choose.xhtml" x="650" y="900" zoom="true"/>
+        <Node id="pages/f_wrestler.xhtml" x="1400" y="750" zoom="true"/>
+        <Node id="error_pages/404.xhtml" x="400" y="300" zoom="true"/>
+        <Node id="pages/main.xhtml" x="42" y="195" zoom="true"/>
+        <Node id="pages/templates/clash_of_champions_hall_template.xhtml" x="150" y="900" zoom="true"/>
+        <Node id="pages/ppv/Backlash.xhtml" x="1650" y="300" zoom="true"/>
+        <Node id="pages/templates/pagination.xhtml" x="900" y="300" zoom="true"/>
+        <Node id="pages/templates/hall_plan/WrestlemaniaHall.xhtml" x="650" y="1200" zoom="true"/>
+        <Node id="pages/templates/summer_slam_hall_template.xhtml" x="1400" y="900" zoom="true"/>
+        <Node id="pages/templates/wwe_template.xhtml" x="400" y="450" zoom="true"/>
+        <Node id="pages/wrestler.xhtml" x="315" y="35" zoom="true"/>
+        <Node id="pages/templates/hall_plan/TLCHall.xhtml" x="650" y="600" zoom="true"/>
+        <Node id="pages/templates/footer.xhtml" x="650" y="450" zoom="true"/>
+        <Node id="pages/ppv/RoyalRumble.xhtml" x="1150" y="900" zoom="true"/>
+        <Node id="pages/templates/money_in_bank_hall_template.xhtml" x="400" y="1050" zoom="true"/>
+        <Node id="pages/templates/top_menu.xhtml" x="1400" y="150" zoom="true"/>
+        <Node id="pages/result_author.xhtml" x="105" y="404" zoom="true"/>
+        <Node id="pages/templates/wrestler_template.xhtml" x="650" y="300" zoom="true"/>
+        <Node id="pages/ppv/Battleground.xhtml" x="1400" y="450" zoom="true"/>
+        <Node id="pages/ppv/Fastlane.xhtml" x="2150" y="150" zoom="true"/>
+        <Node id="pages/tickets_ready.xhtml" x="1650" y="750" zoom="true"/>
+        <Node id="pages/templates/content_wrestler.xhtml" x="1150" y="300" zoom="true"/>
+        <Node id="pages/templates/result_template.xhtml" x="150" y="750" zoom="true"/>
+        <Node id="pages/ppv/MoneyInTheBank.xhtml" x="150" y="1350" zoom="true"/>
+        <Node id="pages/templates/content_f_wrestler.xhtml" x="2150" y="300" zoom="true"/>
+        <Node id="pages/templates/hall_plan/BattlegroundHall.xhtml" x="400" y="1200" zoom="true"/>
+        <Node id="pages/templates/hall_plan/SummerSlamHall.xhtml" x="1400" y="600" zoom="true"/>
+        <Node id="pages/result_wrestler.xhtml" x="1900" y="600" zoom="true"/>
+        <Node id="pages/templates/content_choose.xhtml" x="400" y="150" zoom="true"/>
+        <Node id="pages/ppv/WrestleMania.xhtml" x="2150" y="450" zoom="true"/>
+        <Node id="pages/templates/f_wrestler_template.xhtml" x="2400" y="300" zoom="true"/>
+        <Node id="pages/templates/right_menu.xhtml" x="400" y="600" zoom="true"/>
+        <Node id="pages/templates/hall_plan/BacklashHall.xhtml" x="900" y="600" zoom="true"/>
+        <Node id="pages/templates/hall_plan/MoneyInTheBankHall.xhtml" x="650" y="1050" zoom="true"/>
+        <Node id="pages/ppv/ClashOfChampions.xhtml" x="900" y="450" zoom="true"/>
+        <Node id="pages/templates/wrestlemania_hall_template.xhtml" x="1900" y="300" zoom="true"/>
+        <Node id="pages/templates/content_tickets.xhtml" x="1900" y="150" zoom="true"/>
+        <Node id="pages/templates/content.xhtml" x="150" y="450" zoom="true"/>
+        <Node id="pages/ppv/NoMercy.xhtml" x="400" y="900" zoom="true"/>
+        <Node id="pages/templates/hall_plan/PayBackHall.xhtml" x="1150" y="600" zoom="true"/>
+        <Node id="pages/templates/hall_plan/FastlaneHall.xhtml" x="900" y="750" zoom="true"/>
+        <Node id="pages/templates/header.xhtml" x="150" y="600" zoom="true"/>
+        <Node id="pages/templates/content_f_choose.xhtml" x="400" y="1350" zoom="true"/>
+        <Node id="pages/templates/battleground_hall_template.xhtml" x="1150" y="450" zoom="true"/>
+        <Node id="pages/templates/tickets_ready_template.xhtml" x="900" y="900" zoom="true"/>
+    </Scope>
+    <Scope Scope="All Faces Configurations"/>
+</Scene>

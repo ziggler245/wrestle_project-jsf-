@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core">
+    <f:view locale="#{localeChanger.locale}" >    
+    <h:head>
+        <title>Wwe title</title>
+        <h:outputStylesheet library="css" name="style_main.css"/>
+     </h:head>
+    <body>
+        <ui:composition>
+            <h:form>
+                <table border="1" style="position: relative;left:12%;width:515px;" >
+                <ui:repeat var="wr" value="#{fwcontrol.wrestlersList}">
+                    
+                    <tr>
+                        <td width="150">
+                            <h:graphicImage library="images/wrestlers" name="#{wr.imgPath}" width="150"  height="200"/>
+                            
+                        </td>
+                        <td>
+                            <span class="wrestlers">#{msg.name}:</span>  #{wr.name}<br/>
+                            <span class="wrestlers"> #{msg.birthday}:</span>#{wr.bornBegin}(#{wr.years} #{msg.years})<br/> 
+                            <span class="wrestlers">
+                                 #{msg.sex}:</span>
+                                 <h:commandLink action="#{fwcontrol.getSex()}">
+                                    #{wr.sex}
+                                    <f:param name="sexx" value="#{wr.sex}"/>
+                                </h:commandLink>
+                                <br/>
+                            <span class="wrestlers">  #{msg.growth}:</span>#{wr.growth}<br/>
+                            <span class="wrestlers"> #{msg.weight}:</span>#{wr.weight}<br/>
+                            <span class="wrestlers">#{msg.finishers}:</span>#{wr.finishers}<br/>
+                            <span class="wrestlers">#{msg.debut}:</span>#{wr.debut}
+                         <h:commandLink action="#{add.f_delete()}">
+                            <span style="float:right;margin-left: -5%;"> <h:graphicImage library="images" name="star.png" width="30px"/>
+                            </span>
+                                <f:param name="id_wrestle" value="#{wr.id}"/>
+                        </h:commandLink> 
+                        </td>
+                        
+                    </tr>
+                    
+                    
+                    
+                </ui:repeat>
+                
+                </table>
+            </h:form>
+            
+        </ui:composition>
+    </body>
+    </f:view>
+</html>

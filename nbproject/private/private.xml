@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>src/java/beans/PosterPicker.java</url>
+            <bookmark id="1">
+                <name/>
+                <line>16</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/1%20WrestleProject/src/src/wrestle_project/web/resources/images/ppv_poster/money_in_the_bank.jpg</file>
+            <file>file:/D:/1%20WrestleProject/src/src/wrestle_project/src/java/controllers/PpvsController.java</file>
+            <file>file:/D:/1%20WrestleProject/src/src/wrestle_project/src/java/controllers/PaginationController.java</file>
+            <file>file:/D:/1%20WrestleProject/src/src/wrestle_project/web/pages/templates/header.xhtml</file>
+            <file>file:/D:/1%20WrestleProject/src/src/wrestle_project/web/resources/images/ppv_poster/payback.jpg</file>
+            <file>file:/D:/1%20WrestleProject/src/src/wrestle_project/web/pages/templates/right_menu.xhtml</file>
+            <file>file:/D:/1%20WrestleProject/src/src/wrestle_project/web/pages/templates/pagination.xhtml</file>
+            <file>file:/D:/1%20WrestleProject/src/src/wrestle_project/web/pages/templates/tickets_ready_template.xhtml</file>
+            <file>file:/D:/1%20WrestleProject/src/src/wrestle_project/src/java/controllers/ReadyTicketsController.java</file>
+            <file>file:/D:/1%20WrestleProject/src/src/wrestle_project/web/pages/templates/content_tickets.xhtml</file>
+            <file>file:/D:/1%20WrestleProject/src/src/wrestle_project/src/java/beans/User.java</file>
+            <file>file:/D:/1%20WrestleProject/src/src/wrestle_project/web/pages/templates/left_menu.xhtml</file>
+            <file>file:/D:/1%20WrestleProject/src/src/wrestle_project/src/java/beans/DataSelect.java</file>
+        </group>
+    </open-files>
+</project-private>

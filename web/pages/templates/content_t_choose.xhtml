@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+    <h:head>
+        <title>Wwe title</title>
+     </h:head>
+    <body>
+        <!--div>TODO write content</div-->
+        <h:form styleClass="content_container">
+        <table  width="100%" style="">
+            <tr align="center" valign="middle">
+                <td style="width:33%;">
+                    <h:commandLink  action="/pages/wrestler?faces-redirect=true">    
+                            #{msg.wrestlers}
+                    </h:commandLink>
+                </td>
+                <td style="border-left: 1px solid black;">
+                    <h:commandLink  action="/pages/f_wrestler?faces-redirect=true">                    
+                            #{msg.f_wrestlers}
+                     </h:commandLink>
+                </td>
+                <td  style="width:33%;border-left: 1px solid black;background-color:#D7E1BB;">
+                    <h:commandLink style="color:red; background-color: transparent; ">
+                         #{msg.tickets}
+                    </h:commandLink>
+                </td>
+             </tr>
+        </table>
+            </h:form>
+    </body>
+</html>
