@@ -4,5 +4,5 @@ Features:
 -Separation of the Roles (Admin/User)
 -Switch locales(russian/english)
 -Secure authentication
-
+-Developed algorithm for displaying your favorite wrestler
 
