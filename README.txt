@@ -5,4 +5,4 @@ Features:
 -Switch locales(russian/english)
 -Secure authentication
 -Developed algorithm for displaying your favorite wrestler
-
+-Developed algorithm of pagination
