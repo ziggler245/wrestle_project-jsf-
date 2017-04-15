@@ -1,4 +1,5 @@
 This project is a service that lets you create your account, choose your favorite wrestler and buy a ticket for the PPV(PAY-PER-VIEW).
+The project is implemented on JSF.
 Features:
 -Separation of the Roles (Admin/User)
 -Switch locales(russian/english)
