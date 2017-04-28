@@ -2,7 +2,8 @@ This project is a service that lets you create your account, choose your favorit
 The project is implemented on JSF.
 Features:
 -Separation of the Roles (Admin/User)
--Switch locales(russian/english)
+-Switch locales(russian/english) with AJAX
 -Secure authentication(Using the JDBC Realm for User Authentication with sha-256 Algorithm)
+-Use JDBC Connection Pool
 -Developed algorithm for displaying your favorite wrestler
 -Developed algorithm of pagination
