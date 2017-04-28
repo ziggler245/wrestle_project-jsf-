@@ -4,6 +4,6 @@ Features:
 -Separation of the Roles (Admin/User)
 -Switch locales(russian/english) with AJAX
 -Secure authentication(Using the JDBC Realm for User Authentication with sha-256 Algorithm)
--Use JDBC Connection Pool
+-Use of JDBC Connection Pool
 -Developed algorithm for displaying your favorite wrestler
 -Developed algorithm of pagination
