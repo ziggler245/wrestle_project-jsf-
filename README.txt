@@ -5,5 +5,6 @@ Features:
 -Switch locales(russian/english) with AJAX
 -Secure authentication(Using the JDBC Realm for User Authentication with sha-256 Algorithm)
 -Use of JDBC Connection Pool
+-Use of Java Mail
 -Developed by myself algorithm for displaying your favorite wrestler
 -Developed by myself algorithm of pagination
